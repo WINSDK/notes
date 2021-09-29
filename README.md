@@ -1,7 +1,7 @@
 # Index
 ### Categories
 
-#### [business](./business/INDEX.md)
+#### [business](./business/README.md)
 
 ### Individual
 

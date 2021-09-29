@@ -4,7 +4,8 @@ PWD = getcwd()
 
 def is_markdown(entry: str) -> bool:
     if path.isfile(entry):
-        if entry == "README.md":
+        # it's the top level README
+        if entry == "README.md" and getcwd() == PWD:
             return False
         if entry[len(entry)-3:] == ".md":
             return True
@@ -38,7 +39,7 @@ def write_markdown_index(dir: str):
         if is_markdown(entry):
             name = replace_underscore(entry[:len(entry)-3])
             index += f"##### [{name}](./{entry})\n"
-    open("INDEX.md", "w").write(index)
+    open("README.md", "w").write(index)
     chdir(PWD)
 
 
@@ -49,7 +50,7 @@ def main():
     handle.write("### Categories\n")
 
     for dir in is_dir(listdir()):
-        handle.write(f"\n#### [{dir}](./{dir}/INDEX.md)")
+        handle.write(f"\n#### [{dir}](./{dir}/README.md)")
         write_markdown_index(dir)
 
     handle.write("\n\n### Individual\n")
