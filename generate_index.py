@@ -47,9 +47,9 @@ def generate_markdown_subsection(dir: Path) -> str:
 
     for entry in sort_path_len(dir.iterdir()):
         if is_markdown(entry):
-            entry = replace_underscore(entry)
+            name = replace_underscore(entry)
             entry = path_to_relative(entry)
-            index += f"[{entry.stem}](./{entry}) <br>\n"
+            index += f"[{name.stem}](./{entry}) <br>\n"
     return index
 
 
