@@ -1,4 +1,4 @@
-![Strategic matrix](porters_diagram.jpg)
+![Strategic matrix](./porters_diagram.png)
 
 ### Cost leadership
 Involves striving to be the lowest-cost provider
