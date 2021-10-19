@@ -1,10 +1,10 @@
 # basics
-b **file**\:**line** -> set breakpoint in a file location \
-l -> shows current lines \
-f -> shows current lines + details on location ex: stackframe and current line \
-n -> steps over current line \
-s -> step into current line \
-c -> continue execution
+B -> set breakpoint in a file location
+L -> shows current lines
+F -> shows current lines + details on location ex: stack frame and current line
+N -> steps over current line
+S -> step into current line
+C -> continue execution
 
 ## handling breakpoints
 * set breakpoints by file location
@@ -35,8 +35,8 @@ c -> continue execution
 
 ________________
 
-#### pipe file into stdin 
+### pipe file into stdin 
 settings set target.input-path *path*
 
-#### set arguements | run with arguements
+### set arguments | run with arguments
 settings set target.run-args *.. args* | lldb -- *exec* *.. args*

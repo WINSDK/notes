@@ -1,14 +1,15 @@
 # Ansoff's Matrix
 
 Ansoff build a matrix based on the main factors that businesses need to identify
-to achieve a competitive advantage. To do this the business will need to analyse
+to achieve a competitive advantage. To do this the business will need to analyze
 whether they need to continue with an existing product or whether to
 develop a new product.
 
-//////////////////   | Existing Products  | New products
--------------------- | ------------------ | -------------------
-__Existing Markets__ | Market Penetration | Product development
-__New markets__      | Market Development | Diversification
+|                      | Existing products  | new products         |
+| -------------------- | ------------------ | -------------------- |
+| **Existing markets** | Market penetration | Product development  |
+| **New markets**      | Market development | Diversification      |
+
 
 * Market penetration
   - A strategy to increase sales of an existing product in an existing market

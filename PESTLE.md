@@ -1,11 +1,11 @@
 # PESTLE
 
-**P**olitical \
-**E**conomic \
-**S**ocial \
-**T**echnological \
-**L**egal \
-**E**nvironmental 
+**P**olitical
+**E**conomic
+**S**ocial
+**T**echnological
+**L**egal
+**E**nvironmental
 
 ## Pestle analysis
 The impact of external influences on business can be enormous, PESTLE analysis 
@@ -18,12 +18,12 @@ Changes in political policy can make a drastic change on business operations.
   - May disrupt financial markets and create a great deal of uncertainty.
 * National security
   - Measures designed to improve national security restricts the movements
-  of good, people and captital.
+  of good, people and capital.
 * Trade unions and other activist
   - These groups may push for measures to increase wages for their members
   and lead to an increase in fixed costs
 * Changes in government
-  - A new governement might want to introduce laws that impact
+  - A new government might want to introduce laws that impact
   a business's operations
 
 ### Economic

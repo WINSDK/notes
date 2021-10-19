@@ -1,5 +1,4 @@
-Investment appraisal refers to a method of evaluating the profit or <br>
-desirability of an investment project.
+Investment appraisal refers to a method of evaluating the profit or desirability of an investment project.
 
 ## Factors considered in an appraisal
 * The initial cost of the investment
@@ -17,8 +16,7 @@ desirability of an investment project.
 ## Methods of investment appraisal
 
 #### Payback
-Payback methods refers to the time it takes to <br>
-get back the money you invested (months/years).
+Payback methods refers to the time it takes to get back the money you invested (months/years).
 
 ### ARR 
 % return on investment.
@@ -35,5 +33,4 @@ ARR = Average Annual Return / investment
 ARR = $100,000 / $500,000 x 100 = 20%
 
 ### NPV
-multiplying the discount factors by the net cash flows to give NPV for each year, <br>
-then sum then up to give the total project return.
+multiplying the discount factors by the net cash flows to give NPV for each year, then sum then up to give the total project return.

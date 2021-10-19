@@ -8,11 +8,11 @@
 |allows the business to <br> grow at a more sensible rate|growth achieved may be dependent <br> on the growth of the market|
 
 ## Joint venture
-A seperate business entity created by two or more parties, 
+A separate business entity created by two or more parties, 
 involving shared ownership, returns and risks
 
-#### Potential Benefits of a joint venture
-* Benefits from each other's experties and resources
+### Potential Benefits of a joint venture
+* Benefits from each other's expertise and resources
   - e.g market knowledge, customer base, distribution
   channels, R&D expertise
 * Each partner might have the option to acquire in the future
@@ -52,7 +52,7 @@ Involves one business acquiring control of another business
 
 ### Reasons a takeover fails
 * Price paid for takeover was too high
-* Takover was mishandled
+* Takeover was mishandled
 * Business culture incompatible between businesses
 * Loss of employees and customers post acquisition
 * Competitors take the opportunity to gain market share
@@ -60,10 +60,7 @@ Involves one business acquiring control of another business
   or other stakeholders of the business
 
 ## Types and direction of integration
-
-#### Directions of integration
-
-|**forward + vertical**        |Acquiring a business further up in the supply chain <br> e.g manufacturer buys a distributer|
+|**forward + vertical**        |Acquiring a business further up in the supply chain <br> e.g manufacturer buys a distributor|
 |:----------------------------:|:--------------------------------:|
 |**backward + vertical**       |Acquiring a business operating earlier <br> in the supply chain, e.g. retailer buys wholesaler|
 |**horizontal**                |Acquiring a business at the same stage of the supply chain <br> e.g. a manufacturer buys a competitor|
@@ -76,7 +73,7 @@ When a business purchases/merges with it's direct competitors or
 others in the same market.
 
 1. Achieve economics of scales
-2. Savings from the potential sharing of supplier and more (rationalisation)
+2. Savings from the potential sharing of supplier and more (rationalization)
 3. Potential to increase revenue
 4. Wider range of products, e.g. diversification
 5. Reduces competition by removing key rivals,

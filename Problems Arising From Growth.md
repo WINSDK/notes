@@ -1,6 +1,5 @@
 # Diseconomics of scale
-Increases in costs as a result of an increase in organizational <br>
-size of in output resulting in increased per-unit costs.
+Increases in costs as a result of an increase in organizational size of in output resulting in increased per-unit costs.
 
 ## Sources of diseconomics of scale
 

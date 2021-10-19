@@ -16,11 +16,11 @@
 * Customer loyalty
 * Cost of leaving market
 
-#### Supplier Power
+### Supplier Power
 
-#### Buyer Power
+### Buyer Power
 
-#### Threat of Substitution
+### Threat of Substitution
 
 ## Why do airlines make so little profit (and such big losses)
 

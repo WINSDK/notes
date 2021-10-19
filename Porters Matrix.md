@@ -1,4 +1,4 @@
-![Strategic matrix](./porters_diagram.png)
+![Strategic matrix](./assets/porters_diagram.jpg)
 
 ### Cost leadership
 Involves striving to be the lowest-cost provider
@@ -18,12 +18,12 @@ Involves a business operating in a mass market with a UPS
   - design
   - brand identity
   - customer service
-* requires justifying additional costss
+* requires justifying additional costs
 
 ### Focus
 Strategy involves targeting a narrow range of customers
 
 * Cost focus
-  - Emphasising cost minimisation within a focused or niche market
+  - Emphasizing cost minimization within a focused or niche market
 * Differentiation focus
   - Following different strategies within a focused market

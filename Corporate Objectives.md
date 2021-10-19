@@ -12,5 +12,5 @@ aims are step by step instructions to achieve objectives
 * An attempt to put corporate aims into words that inspire
 * Describes in general terms its goals and values
 
-### Influces on business
+### Influences on business
 A mission model shows the main influences on a mission.
