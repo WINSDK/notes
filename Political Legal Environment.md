@@ -26,7 +26,7 @@ Labor market's are split into employment rights and industrial relations.
 * If they believe their pay is unequal, they can
   take the employer to an employment tribunal
 
-### Minimum Wage Legislation
+## Minimum Wage Legislation
 * Employers required to ensure they pay their
   workers at least the national minimum wage
 * In the UK, for workers over 25, a top-up is applied to create

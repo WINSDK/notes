@@ -1,5 +1,4 @@
-aims are step by step instructions to achieve objectives
-
+##### aims are step by step instructions to achieve objectives
 ### Corporate aims
 * Aims are the generalized statement of where a business is heading.
 * Examples include:

@@ -1,10 +1,12 @@
-##### Diseconomies of scale
-Rising long-run average costs as a business expands 
-beyond its minimum efficient scale.
+![Strategic matrix](./assets/economies_of_scale.png)
 
-##### Economies of scale
-The reductions in average costs experienced 
-by a business as output increases.
+### Diseconomies of scale
+Rising long-run average costs as a business expands beyond its minimum efficient scale.
+
+##### [[Sources of Diseconomies of Scale]]
+
+### Economies of scale
+The reductions in average costs experienced by a business as output increases.
 
 ## Internal economies of scale
 

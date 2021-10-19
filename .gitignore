@@ -1,3 +1,5 @@
 .DS_Store
+.obsidian/graph.json
 .obsidian/workspace
-.obsidian/plugins/*
+.obsidian/themes/
+.obsidian/plugins/

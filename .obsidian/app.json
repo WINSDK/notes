@@ -3,5 +3,12 @@
   "defaultViewMode": "preview",
   "vimMode": true,
   "emacsyKeys": false,
-  "promptDelete": false
+  "promptDelete": false,
+  "spellcheckDictionary": [
+    "diseconomie",
+    "diseconomie",
+    "amongst",
+    "Diseconomies",
+    "Overtrading"
+  ]
 }
