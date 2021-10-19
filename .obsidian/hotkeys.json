@@ -1,9 +1,13 @@
 {
   "switcher:open": [
     {
-      "modifiers": [
-        "Shift"
-      ],
+      "modifiers": [],
+      "key": "Tab"
+    }
+  ],
+  "command-palette:open": [
+    {
+      "modifiers": [],
       "key": "`"
     }
   ]

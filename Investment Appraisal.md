@@ -4,7 +4,7 @@ Investment appraisal refers to a method of evaluating the profit or desirability
 * The initial cost of the investment
 * The estimated life expectancy
 * The residual value of the investment
-* The forecasted net returns or net cash flows of the project
+* The forecast'd net returns or net cash flows of the project
 
 #### Quantitative methods
 * Payback period
