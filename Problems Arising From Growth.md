@@ -8,7 +8,7 @@ Internal diseconomies of scale are the rising costs caused by
 excessive growth in the business. Usually related to very large businesses.
 
 #### Examples of internal diseconomies of scale are
-1. Poor communication
+* Poor communication
   - The flow of communication between departments can become very difficult
   - Chains of command may be very long
-2. Control and co-ordination
+* Control and co-ordination

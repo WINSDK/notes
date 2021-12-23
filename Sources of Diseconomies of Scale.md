@@ -14,5 +14,3 @@ Staff can be **informed easily** on updates within the organization, IT can be e
 Departments may hide information from each other for their own benefits. Figures might be **misconstrued** or **hidden** completely to receive *unfair* portions of resources. Two departments could both be working on the same task without each others knowledge. With a lack of communication and large distances between these conglomerates departments will spend time **repeating tasks** often.
 
 # Overtrading 
-
-
