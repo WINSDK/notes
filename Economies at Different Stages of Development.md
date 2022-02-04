@@ -32,3 +32,13 @@ Countries like the USA, Canada, Japan and Australia where most people experience
 A majority of countries, more than 200 countries are developing or have less-developed economies. Most are in the *southern hemisphere* where climate conditions are often rough, but they do share the same problems as developed economies but suffer through them. E.g. a low education level in the many countries that *lack the resources* to maintain higher-level schools.
 
 They do however have **high population growth**, the rate of birth in many developed countries hovers around 2 kids a family whilst countries like the *DRC* (Democratic Republic of Congo) have more than 3 times the birth rate (6.3 kids a family).
+
+### Emerging Economies
+An economy with *rapid economic growth* (usually measured by their [[GDP per capita]]). Due to the speed of their growth there's a lot of opportunity and risk, compared to a mature market; it's easy for one of these economies to rapidly decline as they are *unstable* with rampid speculation.
+
+Emerging economies display a lot of the characteristics of [[#Developed Economies]] especially when it comes to income levels and unemployment however they often lack the long term investments of good infrastructure and life expectancy.
+
+> **Groups are often used to describe these emerging economies**
+>
+> **BRICS**: Brazil, Russia, India, China and South Africa
+> **MINT**: Mexico, Indonesia, Nigeria and Turkey
