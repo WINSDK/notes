@@ -1,4 +1,5 @@
-# Human Resources
+Human Resources
+=====
 
 ### Labor turnover
 An analysis of the proportion of the staff leaving in a given time period.

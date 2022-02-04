@@ -1,4 +1,5 @@
-# Trigonometric Formulae
+Trigonometric Formulae
+=====
 
 ## Addition formulae
 \

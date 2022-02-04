@@ -1,4 +1,6 @@
-# basics
+basics
+=====
+
 B -> set breakpoint in a file location
 L -> shows current lines
 F -> shows current lines + details on location ex: stack frame and current line

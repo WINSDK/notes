@@ -1,4 +1,5 @@
-# Characteristics of Economies at Different Stages of Development
+Characteristics of Economies at Different Stages of Development
+=====
 
 There is a vast difference in prosperity and welfare between countries, only a minority of countries have access to good healthcare, education, housing and access to high-quality food. The people in these countries will also have *disposable income* to spend on non-essential items such as holidays, entertainment and leisure activities.
 

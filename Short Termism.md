@@ -1,4 +1,5 @@
-# Short-termism
+Short-termism
+=====
 
 #### May damage other measures of long-term performance such as
 * Market share

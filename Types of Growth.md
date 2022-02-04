@@ -1,4 +1,5 @@
-## Benefits and drawbacks of organic growth
+Benefits and drawbacks of organic growth
+=====
 
 |         advantages           |          disadvantages           |
 |:----------------------------:|:--------------------------------:|

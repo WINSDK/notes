@@ -1,4 +1,6 @@
-# Critical Path Analysis
+Critical Path Analysis
+=====
+
 A project analysis and planning method that allows a project to be completed in the shortest time possible.
 
 ### Reasons to use CPA as a business

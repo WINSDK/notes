@@ -1,4 +1,5 @@
-# Ansoff's Matrix
+Ansoff's Matrix
+=====
 
 Ansoff build a matrix based on the main factors that businesses need to identify
 to achieve a competitive advantage. To do this the business will need to analyze

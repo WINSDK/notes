@@ -1,4 +1,5 @@
-# Political & Legal environment
+Political & Legal environment
+=====
 
 ### What is business legislation
 * A set of rules and regulations with 

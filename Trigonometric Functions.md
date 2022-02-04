@@ -1,4 +1,5 @@
-# Trigonometric Functions
+Trigonometric Functions
+=====
 
 $$\LARGE sec(x) = \frac 1{cos(x)}$$
 $$\LARGE cosec(x) = \frac 1{sin(x)}$$

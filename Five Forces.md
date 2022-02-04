@@ -1,4 +1,5 @@
-# Five Forces Analysis (Porter)
+Five Forces Analysis (Porter)
+=====
 
 #### Threat of new entry
 * Time and cost of entry

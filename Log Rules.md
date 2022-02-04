@@ -1,4 +1,6 @@
-# Log Rules
+Log Rules
+=====
+
 \
 $\LARGE log_x(ab) = log_x(a) + log_x(b)$
 

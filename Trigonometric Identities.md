@@ -1,4 +1,5 @@
-# Trigonometric Identities
+Trigonometric Identities
+=====
 
 #### $$1 + tan^2(x) = sec^2(x)$$
 #### $$1 + cot^2(x) = cosec^2(x)$$
