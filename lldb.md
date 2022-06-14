@@ -42,3 +42,9 @@ settings set target.input-path *path*
 
 ### set arguments | run with arguments
 settings set target.run-args *.. args* | lldb -- *exec* *.. args*
+
+### The number of disassembly lines to show when displaying a stopped context
+set set stop-disassembly-count *count*
+
+### Control when to display disassembly when displaying a stopped context
+set set stop-disassembly-display

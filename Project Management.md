@@ -26,3 +26,48 @@ data with external entities.
 * All the external entities.
 * Only the main data flows between the external entities and the system.
 * Has a single process connected to the external entities.
+
+### What can project management do
+* Scheduling of tasks
+* Allocation of resources
+* Costing
+* Collaborative working (calendars, shared documents, progress)
+* Decision making
+* A critical path
+
+### Weaknesses of project management software
+* There's often a cost associated
+* Training required
+* Complexity
+
+```mermaid
+flowchart LR;
+  id1(Initiation)
+  id1.1(Planning)
+  id1.2(Monitoring and controlling)
+  id1.3(Closing)
+  id1.4(Execution)
+
+  id1-->id1.1
+  id1.2-->id1.1
+  id1.1-->id1.4
+  id1.4-->id1.2
+  id1.2-->id1.3
+```
+
+```mermaid
+gantt
+  dateFormat  YYYY-MM-DD
+  title       Creating one of my first gantt charts
+  excludes    weekends
+
+  section Part A of project
+  Beginning :milestone, 2022-01-01, 1d
+  Setting up equipment :done, desc1, 2022-01-12, 4d
+  Screaming at the wall :done, after desc1, 8d
+  Done something :active, 2022-02-30, 2d
+
+  section Part B of project
+
+  section Part C of project
+```

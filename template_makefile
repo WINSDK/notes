@@ -1,0 +1,44 @@
+CC  = clang
+CXX = clang++
+
+CFLAGS   = -O2 -flto=thin
+CXXFLAGS = $(CFLAGS)
+LDFLAGS  = -fuse-ld=lld
+
+# path macros
+BIN_PATH := target
+SRC_PATH := src
+
+TARGET_NAME := main
+ifeq ($(OS),Windows_NT)
+	TARGET_NAME := $(addsuffix .exe,$(TARGET_NAME))
+endif
+TARGET := $(BIN_PATH)/$(TARGET_NAME)
+
+# src files & obj files
+SRC := $(foreach x, $(SRC_PATH), $(wildcard $(addprefix $(x)/*,.c*)))
+OBJ := $(addprefix $(BIN_PATH)/, $(addsuffix .o, $(notdir $(basename $(SRC)))))
+
+default: makedir all
+
+# .PHONY is used to specify these rules can't be files on the disk
+.PHONY: makedir
+makedir:
+	@mkdir -p $(BIN_PATH)
+
+.PHONY: all
+all: $(TARGET)
+
+.PHONY: clean
+clean:
+	@echo CLEAN $(OBJ) $(TARGET)
+	@rm -f $(OBJ) $(TARGET)
+
+$(TARGET): $(OBJ)
+	$(CC) $(LDFLAGS) -o $@ $(OBJ)
+
+$(BIN_PATH)/%.o: $(SRC_PATH)/%.c
+	$(CC) $(CFLAGS) -o $@ $<
+
+$(BIN_PATH)/%.o: $(SRC_PATH)/%.cpp
+	$(CC) $(CXXFLAGS) -o $@ $<
