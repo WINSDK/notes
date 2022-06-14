@@ -1,10 +1,10 @@
-<p>
+```
 sqrt :: Floating a => a -> a
 sqrt for example expects a float, take's a value and returns a value.
 
 $ expr     == (expr)
 f <$> expr == fmap f (expr)
-</p>
+```
 
 **create list**
 ```haskell
@@ -44,7 +44,7 @@ take x list
 drop x list
 ```
 
-**check if value is in list
+**check if value is in list**
 ```haskell
 elem x list
 ```
