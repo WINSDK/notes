@@ -1,10 +1,12 @@
+<p>
 sqrt :: Floating a => a -> a
 sqrt for example expects a float, take's a value and returns a value.
 
 $ expr     == (expr)
 f <$> expr == fmap f (expr)
+</p>
 
-*create list*
+**create list**
 ```haskell
 1 : 2 : 3 : 4 : []
 [1, 2, 3, 4]
@@ -12,41 +14,67 @@ f <$> expr == fmap f (expr)
 
 gotta remember lists are singly linked and immutable.
 
-*get item at index*
+**get item at index**
+```haskell
 list !! idx
+```
 
-*first*
+**first**
+```haskell
 head list
+```
 
-*last*
+**last**
+```haskell
 tail list
+```
 
-*everything but the last*
+**everything but the last**
+```haskell
 init list
+```
 
-*x first elements of list*
+**x first elements of list**
+```haskell
 take x list
+```
 
-*list except x first elements of list*
+**list except x first elements of list**
+```haskell
 drop x list
+```
 
-*check if value is in list
+**check if value is in list
+```haskell
 elem x list
+```
 
-*max value in list*
+**max value in list**
+```haskell
 maximum list
+```
 
-*min value in list*
+**min value in list**
+```haskell
 minimum list
+```
 
-*list in intervals of (x - y) up to z*
+**list in intervals of (x - y) up to z**
+```haskell
 [x,y..z]
+```
 
-*infinite list*
+**infinite list**
+```haskell
 [x..]
+```
 
-*infinite list of x*
+**infinite list of x**
+```haskell
 repeat x
+```
 
-*n number of x's*
+**n number of x's**
+```haskell
 replicate x n
+```
