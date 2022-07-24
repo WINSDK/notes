@@ -1,44 +1,29 @@
-CC  = clang
-CXX = clang++
-
-CFLAGS   = -O2 -flto=thin
-CXXFLAGS = $(CFLAGS)
+CC  = clang++
+CCFLAGS = -O2 -flto=thin
 LDFLAGS  = -fuse-ld=lld
 
-# path macros
-BIN_PATH := target
-SRC_PATH := src
-
-TARGET_NAME := main
+TARGET := target/main
 ifeq ($(OS),Windows_NT)
-	TARGET_NAME := $(addsuffix .exe,$(TARGET_NAME))
+    TARGET := $(addsuffix .exe, $(TARGET))
 endif
-TARGET := $(BIN_PATH)/$(TARGET_NAME)
 
-# src files & obj files
-SRC := $(foreach x, $(SRC_PATH), $(wildcard $(addprefix $(x)/*,.c*)))
-OBJ := $(addprefix $(BIN_PATH)/, $(addsuffix .o, $(notdir $(basename $(SRC)))))
+SRCS := $(wildcard src/*.cc)
+OBJS := $(addprefix target/, $(notdir $(SRCS:.cc=.o)))
 
-default: makedir all
+all: $(TARGET) target
 
-# .PHONY is used to specify these rules can't be files on the disk
-.PHONY: makedir
-makedir:
-	@mkdir -p $(BIN_PATH)
-
-.PHONY: all
-all: $(TARGET)
-
-.PHONY: clean
-clean:
-	@echo CLEAN $(OBJ) $(TARGET)
-	@rm -f $(OBJ) $(TARGET)
+target:
+	mkdir -p target
 
 $(TARGET): $(OBJ)
-	$(CC) $(LDFLAGS) -o $@ $(OBJ)
+	$(CC) $(OBJS) $(LDFLAGS) -o $@
 
-$(BIN_PATH)/%.o: $(SRC_PATH)/%.c
-	$(CC) $(CFLAGS) -o $@ $<
+$(OBJS): $(SRCS)
+	$(CC) $(CCFLAGS) -c -o $@ $<
 
-$(BIN_PATH)/%.o: $(SRC_PATH)/%.cpp
-	$(CC) $(CXXFLAGS) -o $@ $<
+clean:
+	rm -rf target
+	rm -f compile_commands.json
+
+# .PHONY is used to specify these rules can't be files on the disk
+.PHONY: all clean
