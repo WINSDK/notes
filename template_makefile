@@ -1,21 +1,17 @@
-CC  = clang++
+CC      = clang++
 CCFLAGS = -O2 -flto=thin
-LDFLAGS  = -fuse-ld=lld
+LDFLAGS = -fuse-ld=lld
 
 TARGET := target/main
-ifeq ($(OS),Windows_NT)
-    TARGET := $(addsuffix .exe, $(TARGET))
-endif
-
-SRCS := $(wildcard src/*.cc)
-OBJS := $(addprefix target/, $(notdir $(SRCS:.cc=.o)))
+SRCS   := $(wildcard src/*.cc)
+OBJS   := $(addprefix target/, $(notdir $(SRCS:.cc=.o)))
 
 all: $(TARGET) target
 
 target:
 	mkdir -p target
 
-$(TARGET): $(OBJ)
+$(TARGET): $(OBJS)
 	$(CC) $(OBJS) $(LDFLAGS) -o $@
 
 $(OBJS): $(SRCS)
